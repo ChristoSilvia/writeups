@@ -457,7 +457,7 @@ with GCC:
 $ cd directory/with/cmakelist/
 $ mkdir build/ # Let's keep the generated files separate from source files
 $ cd build/
-$ CC=gcc-5.1 CXX=g++-5.1 cmake .. # Replace with your version of GCC
+$ CC=gcc CXX=g++ cmake .. # Replace with your version of GCC
 $ make
 $ ./hello1
 $ make test
